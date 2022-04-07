@@ -9,9 +9,6 @@ app.use(express.json())
 
 
 // Router
-// app.get('/',(req,res)=>{
-//     res.send('Task Manager App');
-// })
 
 app.use('/api/v1/tasks', tasks)
 const port=3000;

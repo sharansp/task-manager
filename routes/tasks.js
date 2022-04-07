@@ -5,9 +5,4 @@ const router = express.Router();
 router.route('/').get(getAllTasks).post(createTask)
 router.route('/:id').get(getTask).patch(updateTask).delete(deleteTask)
 
-// const app = express();
-// app.get('hello',(req,res)=>{
-//     res.send()
-// })
-
 module.exports = router;
