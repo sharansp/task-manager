@@ -2,8 +2,8 @@
 Task manger app using node express
 
 ## Project setup
-> npm install
-> Setup Mongo Connection URI and add in .env, npm i dotenv
+- npm install
+- Setup Mongo Connection URI and add in .env, npm i dotenv
 
 ## Architecture
 - Model
